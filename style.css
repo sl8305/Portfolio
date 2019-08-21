@@ -1,6 +1,4 @@
 body{
-    /* color:white;
-    background:black; */
     padding:5px;
     background-color: lightgrey;
 }
@@ -14,11 +12,6 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-div {
-    /* margin: 10px;
-    padding: 10px; */
 }
 
 .borderClass {
