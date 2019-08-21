@@ -8,6 +8,13 @@ html {
     scroll-behavior: smooth;
 }
 
+nav{
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 div {
     /* margin: 10px;
     padding: 10px; */
@@ -27,6 +34,18 @@ div {
     margin-right: auto;
 }
 
+.firstFont{
+    font-family: 'Titillium Web', sans-serif;
+    color: #001365;
+    font-weight: bold;
+}
+
+
+.secondFont {
+    font-family: 'Open Sans', sans-serif;
+    color: #3e3e3e;
+    font-weight: normal;
+}
 
 .textCenter {
     text-align: center;
