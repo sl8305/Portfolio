@@ -14,13 +14,6 @@ nav{
     width: 100%;
 }
 
-.borderClass {
-    border-width: 2px;
-    border-style: solid;
-    border-color: lightskyblue;
-    border-radius: 5px;
-}
-
 .footerIcon {
     height:50px;
     padding: 10px;
@@ -84,4 +77,15 @@ p {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.carousel-item {
+    width:100%;
+    height:500px;
+} 
+
+.contactMe {
+    margin-right:auto;
+    margin-left:auto;
+    
 }
