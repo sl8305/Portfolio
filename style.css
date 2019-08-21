@@ -1,12 +1,16 @@
 body{
-    color:white;
-    background:black;
+    /* color:white;
+    background:black; */
     padding:5px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 div {
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px;
+    padding: 10px; */
 }
 
 .borderClass {
@@ -14,4 +18,48 @@ div {
     border-style: solid;
     border-color: lightskyblue;
     border-radius: 5px;
+}
+
+.footerIcon {
+    height:50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.textCenter {
+    text-align: center;
+}
+
+.topBorder {
+    border-top: 3px solid darkblue;
+}
+
+.footer {
+    padding: 10px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    bottom: 0px;
+    text-align: center;
+    width:100%;
+    background:lightgrey;
+}
+
+.footerText {
+    font-size: 14px;
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+#scroll {
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    color:white;
+    background:darkblue;
+    width:10%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
