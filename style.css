@@ -85,7 +85,10 @@ p {
 } 
 
 .contactMe {
-    margin-right:auto;
-    margin-left:auto;
-    
+    margin-top: 2%;
+}
+
+.homeCenter {
+    padding: 2%;
+    margin: 5%;
 }
