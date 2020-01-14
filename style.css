@@ -1,5 +1,4 @@
 body{
-    padding:5px;
     background-color: lightgrey;
 }
 
@@ -14,16 +13,9 @@ nav{
     width: 100%;
 }
 
-.footerIcon {
-    height:50px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1, h2, h3, h4, h5 {
     font-family: 'Titillium Web', sans-serif;
-    color: #001365;
+    color: #146eb4;
     font-weight: bold;
 }
 
@@ -32,6 +24,13 @@ p {
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-weight: normal;
+}
+
+.footerIcon {
+    height:50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .linkText {
@@ -48,7 +47,11 @@ p {
 }
 
 .topBorder {
-    border-top: 3px solid darkblue;
+    border-top: 3px solid #146eb4;
+}
+
+.botBorder {
+    border-bottom: 3px solid #146eb4;
 }
 
 .footer {
@@ -68,10 +71,10 @@ p {
 }
 
 #scroll {
-    border: 2px solid darkblue;
+    border: 2px solid #146eb4;
     border-radius: 5px;
     color:white;
-    background:darkblue;
+    background:#146eb4;
     width:10%;
     text-align: center;
     margin-top: 10px;

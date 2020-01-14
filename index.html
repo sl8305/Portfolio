@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
+    <head>
     <title>SL | Full-Stack</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -23,89 +23,80 @@
     </head>
 
 <body> 
-    <div id='start' >
-        <!-- class="container" -->
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg nav-bg-color navbar-light" id="nav"> 
-        <a class='navbar-brand' href='#start'><h1>Welcome</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <!-- start of navbar links -->
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                
-                <!-- Home -->
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><h5>Home</h5><span class="sr-only">(current)</span></a>
-                </li>
+    <!-- Header - navbar -->
+    <div id='header'>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg nav-bg-color navbar-light botBorder" id="nav"> 
+            <a class='navbar-brand' href='#start'><h1>Welcome</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <!-- Projects -->
-                <li class="nav-item">
-                    <a class="nav-link" href="Projects.html"><h5>Projects</h5><span class="sr-only">(current)</span></a>
-                </li>
-    
-                <!-- linkedIn -->
-                <li class="nav-item">
-                    <a class="nav-link" href='https://www.linkedin.com/in/shad-lee-724621162/'><h5>LinkedIn</h5><span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <!-- start of navbar links -->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><h5>Home</h5><span class="sr-only">(current)</span></a>
+                    </li>
 
-    <!-- CENTER -->
-    <div id= "center" >
+                    <!-- Projects -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="Projects.html"><h5>Projects</h5><span class="sr-only">(current)</span></a>
+                    </li>
+        
+                    <!-- linkedIn -->
+                    <li class="nav-item">
+                        <a class="nav-link" href='https://www.linkedin.com/in/shad-lee-724621162/'><h5>LinkedIn</h5><span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-        <!-- Opening name and picture -->
-        <div class="container-fluid">
-            <div class="row">
-                <!-- input image background -->
+    <!-- Main -->
+    <div id='main' class="container-fluid">
+        <!-- style= "background-image: url('images/Wood.jpeg')"  -->
 
-                <div class="col align-self-center">
-                    <h1> Shad Lee </h1>
-                    <h3> Full-Stack Web Developer </h3>
-                </div>
-
+        <!-- name / title -->
+        <div class="row justify-content-center">
+            <div id='intro' class="col-12 justify-content-center">
+                <h1> Shad Lee </h1>
+                <h3> Full-Stack Web Developer </h3>
             </div>
         </div>
-
 
         <!-- Skill set -->
-        <div class= "container-fluid">
-            <div class="row">
-                <col-12>
-                    <h3>Skillset</h3>
-                </col-12>
-
-            </div>
-
-
-            <div class="row">
-                <!-- Frontend -->
-                <div class= "col-6 align-self-center">
-                    <!-- image frontend -->
-                    <p>Javascript, React.js, jQuery, Bootstrap, HTML, CSS</p>
-                </div>
-
-                <!-- Backend -->
-                <div class= "col-6 align-self-center">
-                    <!-- image backend -->
-                    <p>Node.js, Express.js, MySQL, MongoDB</p>
-
-                </div>
-
+        <div class="row justify-content-center">
+            <div class="col-12 justify-content-center">
+                <h3>Skillset</h3>
             </div>
         </div>
 
+        <div class="row justify-content-center">
+            <!-- Frontend -->
+            <div class="col-4 align-self-center">
+                <!-- image frontend -->
+                <p>Javascript, React.js, jQuery, Bootstrap, HTML, CSS</p>
+            </div>
 
-
-
-
-
+            <!-- Backend -->
+            <div class="col-4 align-self-center">
+                <!-- image backend -->
+                <p>Node.js, Express.js, MySQL, MongoDB</p>
+            </div>
+        </div>
+        
+        <!-- Recent projects -->
+        <div class="container-fluid">
+            <!-- card  -->
+            
+        </div>
+        
         <!-- Bio/ Contact -->
         <div id="bioContact" class="homeCenter container">
-            
             <h2>Learn More</h2>
                 <!-- Email -->
                 <div clas="contactMe">
@@ -124,14 +115,14 @@
                     <p>The icon here, at the bottom of the page or at the top on the navigation bar will direct you to my gitHub page. Here you can see a full list of porjects I have completed or am currently working on.</p>
                 </div>
 
-                <!-- resume -->
+                <!-- resume
                 <div class="contactMe">
                     <a href="..."><p>Resume</p></a>
-                </div>
-            </div>
-
+                </div> -->
         </div>
+
     </div>
+
 
     <!-- FOOTER -->
     <footer class= "footer topBorder">
@@ -163,6 +154,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
-    <script src="script.js"></script>
+    <!--<script src="script.js"></script> -->
   </body>
 </html>
