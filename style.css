@@ -37,10 +37,6 @@ p {
     color: purple;
 }
 
-.textCenter {
-    text-align: center;
-}
-
 .projectCenter {
     padding: 5%;
     margin: 5px;
@@ -86,8 +82,11 @@ p {
     margin-top: 2%;
 }
 
-.homeCenter {
-    padding: 2%;
-    margin: 5%;
-    justify-content: center;
+.card {
+    margin: 10%;
+}
+
+#intro {
+    margin:auto;
+    padding:2%;
 }
