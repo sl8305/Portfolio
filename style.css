@@ -96,6 +96,11 @@ p {
     height:90%;
 }
 
+.marginAuto {
+    margin: auto;
+    padding: 5%;
+}
+
 
 .contactMe {
     margin-top: 2%;
@@ -104,11 +109,6 @@ p {
 #intro {
     margin: auto;
     padding: 2%;
-}
-
-#bioContact {
-    margin: auto;
-    padding: 5%;
 }
 
 #frontProj {

@@ -1,6 +1,7 @@
 # Portfolio
 
 My name is Shad Lee and I am looking for opportunities/jobs to further my knowledge in coding. 
+
 I finished the full stack bootcamp at University of Washington in December of 2019. Here is my portfolio.
 
 Bootcamp: MERN stack
