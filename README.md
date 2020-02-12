@@ -6,3 +6,9 @@ Goal:
 1) Showcase most recent projects
 2) Provide a clean and concise webpage that provide basic information on myself
 3) Showcase my understanding of HTML, CSS, Bootstrap, Jquery and Javascript
+
+Technology used:
+1) HTML
+2) CSS
+3) Bootstrap
+4) Google Fonts
