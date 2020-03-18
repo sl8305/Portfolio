@@ -38,8 +38,8 @@ p {
 }
 
 .projectCenter {
-    padding: 5%;
-    margin: 5px;
+    padding: 3%;
+    margin: 3%;
 }
 
 .topBorder {
@@ -93,7 +93,7 @@ p {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
-    height:90%;
+    height:95%;
 }
 
 .marginAuto {
