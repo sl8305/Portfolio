@@ -87,6 +87,20 @@ p {
     .card{
         margin: auto;
     }
+
+    .centerInfo {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .centerInfo {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 2%;
+    }
 }
 
 .card {
@@ -108,7 +122,7 @@ p {
 
 .intro {
     margin: auto;
-    padding: 3%;
+    padding: 2%;
 }
 
 #frontProj {
