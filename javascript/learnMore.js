@@ -4,12 +4,16 @@
 $(document).ready(function() {
     $("#learnMoreDiv").empty();
 
-    const contact = $('<div>').addClass('marginAuto').attr("id", "bioContact").appendTo("#learnMoreDiv");
+    const contact = $('<div>').addClass('marginAuto').addClass("container").attr("id", "bioContact").appendTo("#learnMoreDiv");
 
     const contactTitle = $('<h2>').text("Learn More");
+    const email = $('<div>').addClass("contactMe");
+    const emailAddress = ("shad8305@outlook.com");
+    const emailDescription = $('<p>').text("If you have any edit suggetions or interesting resources you would like to share with me. Feel free to send me an email. I can be contacted via email: " + emailAddress + " with the subject line github comment");
 
     contactTitle.appendTo(contact);
-
+    email.appendTo(contact);
+    emailDescription.appendTo(email);
 });
 
 
@@ -19,7 +23,7 @@ $(document).ready(function() {
         //         <h2>Learn More</h2>
         //             <!-- Email -->
         //             <div clas="contactMe">
-        //                 <p>If you have any edit suggetions or interesting resources you would like to share with me. Feel free to send me an email. I can be contacted via email: <strong>shad8305@outlook.com</strong> with the subject line github comment</p>
+        //                 <p></p>
         //             </div>
                     
         //             <!-- LinkedIn -->
