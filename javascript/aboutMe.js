@@ -1,6 +1,7 @@
 // Dynamically rendering the About Me section. 
 // Goal is to be able to automate more of the code and reduce hardcoded sections
 
+
 $(document).ready(function() {
     $("#aboutMeDiv").empty();
 
