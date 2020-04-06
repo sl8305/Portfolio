@@ -10,7 +10,7 @@ $(document).ready(function() {
     const email = $('<div>').addClass("contactMe");
     // .text() was not used becuase it does not allow special characteristics such as bolding
     const emailDescription = $('<p>"If you have any edit suggetions or interesting resources you would like to share with me. Feel free to send me an email. I can be contacted via email: <strong>shad8305@outlook.com</strong> with the subject line github comment."</p>');
-  
+
 
     contactTitle.appendTo(contact);
     email.appendTo(contact);
