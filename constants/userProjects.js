@@ -5,7 +5,7 @@ var userProjects = [
         "longDescription" : "Working on it",
         "liveLink" : "https://exp.host/@sl8305/UnravelApp",
         "repoLink" : "https://github.com/Unravel-Mobile/Unravel",
-        "src" : "./images/homeimage-sm.jpg"
+        "src" : "./images/unravelSmall.jpg"
         
     },
     {
@@ -14,7 +14,7 @@ var userProjects = [
         "longDescription" : "Working on it",
         "liveLink" : "https://sl8305.github.io/mResilience",
         "repoLink" : "https://github.com/sl8305/mResilience",
-        "src" : "./images/groupProj.PNG"
+        "src" : "./images/groupProjSmall.PNG"
     },
     {
         "title" : "Train Scheduler",
@@ -22,7 +22,7 @@ var userProjects = [
         "longDescription" : "Working on it",
         "liveLink" : "https://sl8305.github.io/train-scheduler",
         "repoLink" : "https://github.com/sl8305/train-scheduler",
-        "src" : "./images/train.png"
+        "src" : "./images/trainSmall.png"
     },
     {
         "title" : "GifTastic",
