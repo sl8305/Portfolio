@@ -14,7 +14,7 @@ var userProjects = [
         "longDescription" : "Working on it",
         "liveLink" : "https://sl8305.github.io/mResilience",
         "repoLink" : "https://github.com/sl8305/mResilience",
-        "src" : "./images/groupProjSmall.PNG"
+        "src" : "./images/groupProjSmall.png"
     },
     {
         "title" : "Train Scheduler",
