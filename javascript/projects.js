@@ -1,25 +1,10 @@
 // Dynamically rendering the Projects section on index page. 
-// Goal is to be able to automate the project cards using the .json file
+// from userProjects from constants folder
+var userProjects = getuserProjects();
 
 $(document).ready(function () {
     $('#indexProjectDiv').empty();
 
-    
-
-
-    const testFile = {
-        projects: [
-            {
-                "src" : "images/crystal.PNG",
-                "alt" : "alternative name",
-                "title" : "testCaseTitle"
-            }
-        ]
-    };
-
-    console.log("Start");
-    console.log(testFile);
-    console.log(testFile.projects[0].title);
 
     const cardContainer = $('<div class="col-lg-4 col-md-10 col-sm-10"/>');
     const cardImage = $('<img src='+ testFile.projects[0].src +' alt="testImageAltName">');
