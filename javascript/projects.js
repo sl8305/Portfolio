@@ -6,14 +6,12 @@ $(document).ready(function () {
     $('#indexProjectDiv').empty();
 
 
-    const cardContainer = $('<div class="col-lg-4 col-md-10 col-sm-10"/>');
-    const cardImage = $('<img src='+ testFile.projects[0].src +' alt="testImageAltName">');
-
-
-    cardContainer.appendTo('#indexProjectDiv');
-    cardImage.appendTo(cardContainer);
-    $(cardContainer).append("<p>" + testFile.projects[0].title + "</p>");
-
+    const cardContainer = $('<div class="col-lg-4 col-md-10 col-sm-10 card"/>').appendTo('#indexProjectDiv');
+        $('<img class="card-img-top" src='+ userProjects[0].src +' alt="testImageAltName">').appendTo(cardContainer);
+        const cardBody = $('<div class="card-body">').appendTo(cardContainer);
+        $("<p>" + userProjects[0].shortDescription + "</p>").appendTo(cardBody);
+        $('<a href='+ userProjects[0].liveLink +' class="btn btn-primary projCardBtn">Live Page</a>').appendTo(cardBody);
+        $('<a href='+ userProjects[0].repoLink +' class="btn btn-primary projCardBtn">Github Page</a>').appendTo(cardBody);
 
     // <div class=' col-lg-4 col-md-10 col-sm-10'>
     //     <div class="card">
@@ -43,12 +41,12 @@ $(document).ready(function () {
 
     // <div class=' col-lg-4 col-md-10 col-sm-10'>
     //     <div class="card">
-    //         <img class="card-img-top" src="./images/train.png" alt="Card image cap">
+    //         <img class="card-img-top" src="" alt="Card image cap">
     //         <div class="card-body">
     //             <h5 class="card-title">Train Scheduler</h5>
-    //             <p class="card-text">First time using moments.js and using a page layout with rows and columns. Train schedules can be input and the list updates with relative times of other trains and the current time. </p>
-    //             <a href="https://sl8305.github.io/train-scheduler/" class="btn btn-primary">Live page</a>
-    //             <a href="https://github.com/sl8305/train-scheduler" class="btn btn-primary">Github Repo</a>
+    //             <p class="card-text"> </p>
+    //             <a href="/" class="btn btn-primary">Live page</a>
+    //             <a href="" class="btn btn-primary">Github Repo</a>
     //         </div>
     //     </div>
     // </div>
@@ -57,12 +55,12 @@ $(document).ready(function () {
     // EXTRA
     // <div class=' col-lg-4 col-md-10 col-sm-10'>
     //     <div class="card">
-    //         <img class="card-img-top" src="./images/crystal.PNG" alt="Card image cap">
+    //         <img class="card-img-top" src="" alt="Card image cap">
     //         <div class="card-body">
     //             <h5 class="card-title">Crystal Numbers Game</h5>
-    //             <p class="card-text">This game exemplifies the usage of random number generators, clickable images and simple game logic. Each crystal has a hidden random value and the player must guess to add up the values to a randomly generated target value. Wins and loses are recorded and a reset mechanism is used to allow for continual fun.  </p>
-    //             <a href="https://sl8305.github.io/gem-game/" class="btn btn-primary">Live page</a>
-    //             <a href="https://github.com/sl8305/gem-game" class="btn btn-primary">Github Repo</a>
+    //             <p class="card-text">  </p>
+    //             <a href="/" class="btn btn-primary">Live page</a>
+    //             <a href="" class="btn btn-primary">Github Repo</a>
     //         </div>
     //     </div>
     // </div> 
