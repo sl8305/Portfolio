@@ -10,7 +10,7 @@ var userProjects = [
     },
     {
         "title" : "mResilience",
-        "shortDescription" : "Single page informational site for another app. The objective of this project was to create a mobile responsive site that followed the requirements provided by the client. This group project was the first experience working with a wireframe and was a great opportunity to polishing up our skills with html, css, web layout design and merging code.",
+        "shortDescription" : "Single page informational site for another app. The objective of this project was to create a mobile responsive site that followed the requirements provided by the client. This group project was the first experience working with a wireframe and was a great opportunity to polish our skills with html, css, web layout design and merging code.",
         "longDescription" : "Working on it",
         "liveLink" : "https://sl8305.github.io/mResilience",
         "repoLink" : "https://github.com/sl8305/mResilience",

@@ -2,129 +2,123 @@
 <html lang="en">
 
     <head>
-    <title>SL | Full-Stack</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>SL | Full-Stack</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="./constants/style.css" media="screen" />
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="./constants/style.css" media="screen" />
 
-    
-    
     </head>
 
     <body> 
 
-    <!-- Header - navbar -->
-    <div id='header'>   
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg nav-bg-color navbar-light botBorder" id="nav"> 
-            <a class='navbar-brand' href='#header'><h1>Welcome</h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Header - navbar -->
+        <div id='header'>   
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg nav-bg-color navbar-light botBorder" id="nav"> 
+                <a class='navbar-brand' href='#header'><h1>Welcome</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- start of navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
+                <!-- start of navbar links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <!-- Home -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><h5>Home</h5><span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <!-- Projects -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="Projects.html"><h5>Projects</h5><span class="sr-only">(current)</span></a>
+                        </li>
+            
+                        <!-- linkedIn -->
+                        <li class="nav-item">
+                            <a class="nav-link" target='_blank' href='https://www.linkedin.com/in/shad-lee-724621162/'><h5>LinkedIn</h5><span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <!-- Resume -->
+                        <li class="nav-item">
+                            <a class="nav-link" target='_blank' href='https://docs.google.com/document/d/1oxam5BPwnrPREBb3Vs6MqJLomQqpxRTlwOdI18Pa50I/edit?usp=sharing'><h5>Resume</h5><span class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main -->
+        <div id='main' class="container-fluid">
+
+            <div id="aboutMeDiv" class="row">
+                <!-- dynamically rendering the about section with my name, title, picture and skillset -->
+            </div>
+
+            
+            <div id='indexProjectDiv' class="row"> 
+                <!-- dynamically renders recent projects using json file -->
+            </div>
+            
+            <div id="learnMoreDiv" class="row">
+                <!-- dynamically rendering contact information -->
+            </div>
+        
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class= "footer topBorder">
+            <div class="row">
+                    <!-- icon 1 -->
+                <div class="col-lg-3 col-sm-4">
+                    <a target='_blank' href='https://github.com/sl8305'><img src='images/githubIcon.svg' id='gitHubIcon' class='footerIcon'></a>
+                </div>
+
+                <!-- text -->
+                <div class="col-lg-6 col-sm-4">
+                    <p class='textCenter footerText'> If you are interested in learning more, feel free to use the links at the top or to the sides</p>
+                    <p class='textCenter footerText'> Thank you for taking the time to visit my page. </p>
                     
-                    <!-- Home -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><h5>Home</h5><span class="sr-only">(current)</span></a>
-                    </li>
+                    <!-- top button -->
+                    <a href='#header'><p id='scroll'>Top</p></a>
+                </div>
 
-                    <!-- Projects -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="Projects.html"><h5>Projects</h5><span class="sr-only">(current)</span></a>
-                    </li>
-        
-                    <!-- linkedIn -->
-                    <li class="nav-item">
-                        <a class="nav-link" target='_blank' href='https://www.linkedin.com/in/shad-lee-724621162/'><h5>LinkedIn</h5><span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <!-- Resume -->
-                    <li class="nav-item">
-                        <a class="nav-link" target='_blank' href='https://docs.google.com/document/d/1oxam5BPwnrPREBb3Vs6MqJLomQqpxRTlwOdI18Pa50I/edit?usp=sharing'><h5>Resume</h5><span class="sr-only">(current)</span></a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <!-- Main -->
-    <div id='main' class="container-fluid">
-
-        <div id="aboutMeDiv" class="row">
-            <!-- dynamically rendering the about section with my name, title, picture and skillset -->
-        </div>
-
-        
-        <div id='indexProjectDiv' class="row"> 
-            <!-- dynamically renders recent projects using json file -->
-        </div>
-        
-        <div id="learnMoreDiv" class="row">
-            <!-- dynamically rendering contact information -->
-        </div>
-    
-    </div>
+                <!-- icon 2 -->
+                <div class="col-lg-3 col-sm-4">
+                    <a target='_blank' href='https://www.linkedin.com/in/shad-lee-724621162/'><img src='images/linkedIn.png' id='linkedInIcon' class='footerIcon'></a>
+                </div>
+            </div>                              
+        </footer>
 
 
-    <!-- FOOTER -->
-    <footer class= "footer topBorder">
-        <div class="row">
-                <!-- icon 1 -->
-            <div class="col-lg-3 col-sm-4">
-                <a target='_blank' href='https://github.com/sl8305'><img src='images/githubIcon.svg' id='gitHubIcon' class='footerIcon'></a>
-            </div>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-            <!-- text -->
-            <div class="col-lg-6 col-sm-4">
-                <p class='textCenter footerText'> If you are interested in learning more, feel free to use the links at the top or to the sides</p>
-                <p class='textCenter footerText'> Thank you for taking the time to visit my page. </p>
-                
-                <!-- top button -->
-                <a href='#header'><p id='scroll'>Top</p></a>
-            </div>
+        <!-- loading functions from constants -->
+        <script src="./constants/userInfo.js"></script>
+        <script src="./constants/userProjects.js"></script>
 
-            <!-- icon 2 -->
-            <div class="col-lg-3 col-sm-4">
-                <a target='_blank' href='https://www.linkedin.com/in/shad-lee-724621162/'><img src='images/linkedIn.png' id='linkedInIcon' class='footerIcon'></a>
-            </div>
-        </div>                              
-    </footer>
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- scripts grabbing json files -->
-    <script id="myData" src="/constants/myData.json" type="application/json"></script>
-    <script id="myProjData" src="/constants/myProjData.json" type="application/json"></script>
-
-
-    <script src="./constants/userInfo.js"></script>
-    <script src="./constants/userProjects.js"></script>
-
-    <!-- scripts to dynamically render page -->
-    <script src="./javascript/aboutMe.js"></script>
-    <script src="./javascript/projects.js"></script>
-    <script src="./javascript/learnMore.js"></script>
+        <!-- scripts to dynamically render page -->
+        <script src="./javascript/aboutMe.js"></script>
+        <script src="./javascript/projects.js"></script>
+        <script src="./javascript/learnMore.js"></script>
 
     </body>
 </html>
