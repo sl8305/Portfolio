@@ -7,6 +7,7 @@ $(document).ready(function () {
 
     for(i=0; i<3; i++) {
 
+        // only rendering the first three recent projects
         const cardContainer = $('<div class="col-lg-3 col-md-8 col-sm-8 card"/>').appendTo('#indexProjectDiv');
             $('<img class="card-img-top" src='+ userProjects[i].src +' alt="testImageAltName">').appendTo(cardContainer);
             const cardBody = $('<div class="card-body">').appendTo(cardContainer);
