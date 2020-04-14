@@ -1,8 +1,8 @@
 var userProjects = [
     {
         "title" : "Unravel",
-        "shortDescription" : "Unravel Mobile® is a Cognitive Behavioral Therapy Tool for Patients and Therapists.  Unravel Mobile® is a React Native app that offers an alternative to the traditional method of recording de-stressing events. Unravel Mobile® offers the user the opportunity to log how they are feeling at the touch of a couple of buttons.",
-        "longDescription" : "Working on it",
+        "shortDescription" : "Unravel Mobile® is a Cognitive Behavioral Therapy Tool for Patients and Therapists.  Unravel Mobile® is a React Native app that offers an alternative to the traditional method of recording de-stressing events.",
+        "longDescription" : " Unravel Mobile® is a Cognitive Behavioral Therapy Tool for Patients and Therapists. <br><br> • Traditional Method: Based on the Automatic Thought Record: A pen & paper therapeutic tool (weekly homework). <br> • Challenge: Therapists have challenges with patients completing the ATR. <br> • Approach: Leverage mobile to engage patients to completing the ATR <br><br> Unravel Mobile® offers an alternative to the traditional method of recording distressing events, which a lot of times by the time the oportunity of putting pen to paper finally arrives the emotions are not the same; Unravel Mobile® offers the user the opportunity to log how they are feeling at the touch of a couple of buttons.",
         "liveLink" : "https://exp.host/@sl8305/UnravelApp",
         "repoLink" : "https://github.com/Unravel-Mobile/Unravel",
         "src" : "./images/unravelSmall.jpg"
@@ -10,8 +10,8 @@ var userProjects = [
     },
     {
         "title" : "mResilience",
-        "shortDescription" : "Single page informational site for another app. The objective of this project was to create a mobile responsive site that followed the requirements provided by the client. This group project was the first experience working with a wireframe and was a great opportunity to polish our skills with html, css, web layout design and merging code.",
-        "longDescription" : "Single page informational site for another app. The objective of this project was to create a mobile responsive site that followed the requirements provided by the client. This group project was the first experience working with a wireframe and was a great opportunity to polish our skills with html, css, web layout design and merging code.",
+        "shortDescription" : "mResilience is a product website aimed to give First Responders a quick overview of the mobile app. The wireframe for this group project was provided by a client. The key feature of the website is being mobile responsive for easier accessibility . ",
+        "longDescription" : "mResilience is a product website aimed to give First Responders a quick overview of the program and mobile app. The page is mobile responsive for easy access and visability. An email validator API was used to vaildate a return address when using our contact form for more information. The New York Times API was used to provide the user access to new articles related to topics coverd in the mResilience app.    <br><br> This was the first time working with a wireframe provdied by a client and it provided an opportunity to hone our HTML, CSS and JavaScript skills. This project introduced us to reviewing others code and the importance of merging code in order. One important lessons I took away from this project was the use of classes to unify CSS styles across the page instead of hardcoding each element and for the entire team to be aware of this to avoid repeating lines of code.",
         "liveLink" : "https://sl8305.github.io/mResilience",
         "repoLink" : "https://github.com/sl8305/mResilience",
         "src" : "./images/groupProjSmall.png"
