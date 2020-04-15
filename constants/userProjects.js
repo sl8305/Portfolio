@@ -22,7 +22,7 @@ var userProjects = [
         "longDescription" : "First time using moments.js and using a page layout with rows and columns. Train schedules can be input and the list updates with relative times of other trains and the current time.",
         "liveLink" : "https://sl8305.github.io/train-scheduler",
         "repoLink" : "https://github.com/sl8305/train-scheduler",
-        "src" : "./images/trainSmall.png"
+        "src" : "./images/trainUpdate.PNG"
     },
     {
         "title" : "GifTastic",
