@@ -12,7 +12,7 @@ $(document).ready(function () {
             $('<img class="card-img-top" src='+ userProjects[i].src +' alt="testImageAltName">').appendTo(cardContainer);
             const cardBody = $('<div class="card-body">').appendTo(cardContainer);
             $("<p>" + userProjects[i].shortDescription + "</p>").appendTo(cardBody);
-            const btnBody = $('<div>').appendTo(cardContainer);
+            const btnBody = $('<div class="m-auto">').appendTo(cardContainer);
             $('<a href='+ userProjects[i].liveLink +' class="btn btn-primary projCardBtn">Live Page</a>').appendTo(btnBody);
             $('<a href='+ userProjects[i].repoLink +' class="btn btn-primary projCardBtn">Github Page</a>').appendTo(btnBody);
     }
